@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-111.0" y="60.0">com.easyquiz.EasyQuizServer.entity.User</node>
+    <node x="398.0" y="-30.0">com.easyquiz.EasyQuizServer.service.UserServiceImpl</node>
+    <node x="510.0" y="-174.0">com.easyquiz.EasyQuizServer.repository.UserRepository</node>
+    <node x="186.0" y="-280.0">com.easyquiz.EasyQuizServer.service.BaseMethods</node>
+    <node x="-460.0" y="72.0">com.easyquiz.EasyQuizServer.entity.Quize</node>
+    <node x="112.0" y="54.0">com.easyquiz.EasyQuizServer.service.UserService</node>
+    <node x="-144.0" y="-198.0">com.easyquiz.EasyQuizServer.controller.UserController</node>
+    <node x="-462.0" y="-180.0">com.easyquiz.EasyQuizServer.entity.Answer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.easyquiz.EasyQuizServer.controller.UserController" target="com.easyquiz.EasyQuizServer.service.UserService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.easyquiz.EasyQuizServer.service.UserServiceImpl" target="com.easyquiz.EasyQuizServer.repository.UserRepository">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.easyquiz.EasyQuizServer.entity.Quize" target="com.easyquiz.EasyQuizServer.entity.User">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.easyquiz.EasyQuizServer.controller.UserController" target="com.easyquiz.EasyQuizServer.entity.User">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.easyquiz.EasyQuizServer.service.UserService" target="com.easyquiz.EasyQuizServer.service.BaseMethods">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.easyquiz.EasyQuizServer.service.UserServiceImpl" target="com.easyquiz.EasyQuizServer.service.UserService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="124.0" y="0.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
